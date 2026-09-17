@@ -21,8 +21,9 @@ print(f"Ticket: ${ticket_price}")
 # BUG 4
 total_points = 87
 print(f"Points per game: {total_points / games_played}")
-# This one does NOT crash. It runs and gives a wrong-looking answer.
-# We want whole points per game, not 7.25.
+# This one does NOT crash. Run it and read the output.
+# Something about the answer looks off. Can a team score
+# a fraction of a point?
 
 
 # =============================================================
